@@ -11,7 +11,7 @@ You can find me at various places on the net as well…
 
 ##Employment
 
-####PHP Engineer – 汇通天下(2014/4 – 2015/6)
+####PHP Engineer – 汇通天下(2015/6 – present)
 
 Working on dispatch system as PHP Programmer and Maintenance.
 
