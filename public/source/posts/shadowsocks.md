@@ -1,4 +1,4 @@
-之前常常用ppptp在vps上搭建vpn，或者购买vpn。今天看到一篇文章将如何搭建shadowsocks，突然想起[知名博主](stenote.com)强力推荐的vpn工具。于是按照文档试了一下。果然很easy。
+之前常常用ppptp在vps上搭建vpn，或者购买vpn。今天看到一篇文章将如何搭建shadowsocks，突然想起[知名博主](http://stenote.com)强力推荐的vpn工具。于是按照文档试了一下。果然很easy。
 
 * 首先在vps上安装shadowsocks服务端，脚本如下：
 
