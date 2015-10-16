@@ -1,5 +1,3 @@
-## Docker系列（一） —— Docker安装
-
 ### Ubuntu(14.04)软件源安装
 ```
 $ sudo apt-get update
