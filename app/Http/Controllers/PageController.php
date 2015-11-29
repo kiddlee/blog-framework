@@ -39,6 +39,26 @@ class PageController extends Controller {
         return view('pages.archives')->withPosts($posts);
     }
 
+    public function tags($tagName) {
+        error_log($tagName);
+        $postsPath = config('my.posts_path');
+        $indexPath = $postsPath . '/index.json';
+        $contents = file_get_contents($indexPath);
+        $posts = json_decode($contents);
+        $return_posts = [];
+        foreach($posts as $post) {
+            $post_tags = explode(' ', $post->tags);
+            foreach($post_tags as $tag) {
+                error_log($tag);
+                if($tagName == $tag) {
+                    $return_posts[] = $post;
+                    break;
+                }
+            } 
+        }
+        return view('pages.archives')->withPosts($return_posts);
+    }
+
     public function search() {
         return view('pages.search');
     }
