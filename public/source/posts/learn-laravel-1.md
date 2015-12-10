@@ -2,8 +2,10 @@
 * Install composer
 
 	```
+	cd /usr/local/bin
 	curl -sS https://getcomposer.org/installer | php
-	mv composer.phar /usr/local/bin/composer
+	chmod a+x composer.phar
+	mv composer.phar composer
 	```
 	[composer全量中国镜像](http://pkg.phpcomposer.com)
 * create project
