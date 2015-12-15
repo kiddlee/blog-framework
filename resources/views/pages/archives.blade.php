@@ -10,7 +10,7 @@
 		<section class="post-content">
             <ul>
             @foreach( $posts as $post )
-                <li><a href="{{ url('/post/'.$post->slug) }}">{{ $post->slug }}</a></li>
+                <li><a href="{{ url('/post/'.$post->slug) }}">{{ $post->title }}</a></li>
             @endforeach
             </ul>
         </section>

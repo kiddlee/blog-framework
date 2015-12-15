@@ -17,6 +17,6 @@ Route::get('/about', ['as' => 'root', 'uses' => 'PageController@about']);
 Route::get('/page/{pagination}', ['as' => 'root', 'uses' => 'PageController@pagination']);
 Route::get('/archives', ['as' => 'root', 'uses' => 'PageController@archives']);
 Route::get('/tag/{tagName}', ['as' => 'root', 'uses' => 'PageController@tags']);
-Route::get('/search', ['as' => 'root', 'uses' => 'PageController@search']);
 Route::get('/post/{slug}', ['as' => 'root', 'uses' => 'PostController@post']);
+Route::get('/search', ['as' => 'root', 'uses' => 'PageController@search']);
 Route::controller('posts', 'PostController');
