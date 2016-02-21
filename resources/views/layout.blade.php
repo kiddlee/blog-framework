@@ -42,6 +42,7 @@
     <li><a href="{{ url('feed') }}"><span class="icon" data-icon="&#x23;"></span></a></li>
   </ul>
   -->
+  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257559371'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1257559371%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));</script>
 </footer>
 <script src="{{ asset('/js/jquery.highlight.js') }}"></script>
 <script src="{{ asset('/js/jquery.pjax.js') }}"></script>
