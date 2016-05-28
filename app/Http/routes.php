@@ -20,3 +20,5 @@ Route::get('/tag/{tagName}', ['as' => 'root', 'uses' => 'PageController@tags']);
 Route::get('/post/{slug}', ['as' => 'root', 'uses' => 'PostController@post']);
 Route::get('/search', ['as' => 'root', 'uses' => 'PageController@search']);
 Route::controller('posts', 'PostController');
+Route::controller('api', 'APIController');
+Route::controller('wechat', 'WechatController');
