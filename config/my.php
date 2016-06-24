@@ -2,7 +2,7 @@
 
 return [
     'paginate' => 5,
-    'title' => 'Shulei Lee',
+    'title' => '舒磊空间',
     'description' => '',
     'posts_path' => public_path() . '/source/posts', 
     'about_path' => public_path() . '/source/aboutme/index.md',

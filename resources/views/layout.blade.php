@@ -15,7 +15,7 @@
 </head>
 <body>
   <header role="banner">
-    <h1><a href="{{ config('my.url') }}" data-pjax>{{ config('my.title') }}</a></h1>
+    <h1><a href="{{ config('my.url') }}" data-pjax>Shulei Lee</a></h1>
     <figure></figure>
     <nav role="navigation">
       <ul data-pjax>
